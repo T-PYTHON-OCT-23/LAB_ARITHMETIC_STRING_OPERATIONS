@@ -1,0 +1,16 @@
+
+Family = "I have a family and i love thim so much , i will do the best for thim"
+word = "family"
+
+print(len(Family))
+print(Family.find(word))
+print(Family.count(word))
+print(Family.upper())
+print(Family.lower())
+print(Family.upper())
+
+new_phrase = Family.replace(word,"Frinds")
+print(new_phrase)
+
+last_charecter = Family[-1]
+print(last_charecter)
