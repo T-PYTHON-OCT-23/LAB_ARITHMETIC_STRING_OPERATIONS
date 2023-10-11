@@ -29,7 +29,7 @@ Total: $9.64
 ```
 
 
-## Bonus (Not required), create a new python file and do the following:
+## Bonus, create a new python file and do the following:
 
 - Define a string variable containing a sentence with at least 10 words.
 - Define a string variable containing a word that appears in the sentence.
