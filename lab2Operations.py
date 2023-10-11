@@ -1,10 +1,10 @@
 price = 2.99
 quantity = 3
-tax_rate = 7.5
+tax_rate = 0.075
 
-print("Price of item: $" + str(price))
-print("Quantity: " + str(quantity))
-print("Tax rate: " + str(tax_rate) + "% \n" )
+
+itemData = f"Price of item: ${str(price)} \nQuantity: {str(quantity)} \nTax rate: {str(tax_rate *100) }%\n"
+print(itemData)
 
 subtotal = price * quantity 
 tax = subtotal * 0.075
