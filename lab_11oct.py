@@ -16,5 +16,5 @@ tax = tax_rate * subtotal
 #6. Calculate the total cost by adding the subtotal and the tax, and store the result in a variable named "total".
 total = tax + subtotal
 #7. Print the subtotal, tax, and total costs, formatted as currency (e.g., $8.97 for the total cost).
-print(f"Price of item: {price} SR \nQuantity: {quantity} \nTax rate: {tax_rate*100}% \nSubtotal: {subtotal} SR \nTax: {tax} SR \nTotal: {total} SR")
+print(f"Price of item: {price} SR \nQuantity: {quantity} \nTax rate: {tax_rate*100}% \n\nSubtotal: {subtotal} SR \nTax: {tax} SR \nTotal: {total} SR")
 
